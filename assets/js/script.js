@@ -61,9 +61,6 @@ document.addEventListener('visibilitychange',
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Saurabh Marshettiwar";
         }
-        else {
-            document.title = "Come Back To Portfolio";
-        }
     });
 
 
