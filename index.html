@@ -1,412 +1,639 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Viewport Metadata -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Description Metadata-->
-    <meta name="description" content="Portfolio Website" />
-    <!-- Author Metadata -->
-    <meta name="author" content="Saurabh Marshettiwar" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-          
-    <title>Portfolio | Saurabh Marshettiwar</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Saurabh Marshettiwar </title>
+  <meta name="title" content="Saurabh Marshettiwar - Full Stack Developer & Cyber Security Researcher">
+  <meta name="description" content="This is a personal portfolio website">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.heic">
+
 </head>
-<body oncontextmenu="return false">
 
-<!-- navbar starts -->
-<header>
-        <a class="logo"></a>
+<body>
 
-        <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
-            <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-</header>
-<!-- navbar ends -->
+  <!-- 
+    - #PRELOADER
+  -->
 
-
-<!-- hero section starts -->
-<section class="home" id="home">
-    <div id="particles-js"></div>
-
-    <div class="content">
-    <h2>Hi There,<br/> I'm Saurabh <span>Marshettiwar</span></h2>
-    <p>I'm into <span class="typing-text"></span></p>
-    <a href="#about" class="btn"><span>About Me</span>
-    </a>
-    <div class="socials">
-        <ul class="social-icons">
-          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/saurabh-marshettiwar/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
-          <li><a class="github" aria-label="GitHub" href="https://github.com/saurabhmarsh" target="_blank"><i class="fab fa-github"></i></a></li>
-          <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/saurabhmarsh02" target="_blank"><i class="fab fa-twitter"></i></a></li>
-         <li><a class="dev" aria-label="Dev" href="https://dev.to/saurabhmarsh" target="_blank"><i class="fab fa-dev"></i></a></li>
-        </ul>
-      </div>
-    </div>
-</section>
-<!-- hero section ends -->
-
-
-<!-- about section starts -->
-<section class="about" id="about">
-    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
-    
-    <div class="row">
-
-    <div class="image">
-        <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="">
-    </div>
-    <div class="content">
-        <h3>I'm Saurabh</h3>
-        <span class="tag">Full Stack Developer</span>
-        
-        <p>Welcome to my portfolio! I am a dynamic professional with a diverse skill set encompassing cybersecurity analysis, web development, and programming. Armed with a diploma in cyber law, I bring a unique blend of technical expertise and legal acumen to the table. As a quick learner and enthusiastic practitioner in the field, I am committed to staying at the forefront of the ever-evolving cyber landscape. With a proven track record in developing secure web applications and a deep understanding of cyber threats. Explore my portfolio to witness my journey at the intersection of technology, law, and cybersecurity. </p>
-        
-        <div class="box-container">
-            <div class="box">
-              <p><span> age: </span> 21</p>
-              <p><span> phone : </span> +91 9421453232</p>
-              <p><span> email : </span> saurahmarshettiwar02@gmail.com</p>
-              <p><span> place : </span> Pune, India - 411035</p>
-            </div>
-        </div>
-        
-        <div class="resumebtn">
-            <a href="https://drive.google.com/file/d/1zQxFnWfR4GhEC-Krp_8qEfKqHVYCX2Ga/view?usp=drive_link" target="_blank" class="btn"><span>Resume</span>
-                <i class="fas fa-chevron-right"></i>
-            </a>
-        </div>
-
-    </div>
-    </div>
-</section>
-<!-- about section ends -->
-
-<!-- skills section starts -->
-<section class="skills" id="skills">
-
-    <h2 class="heading"><i class="fas fa-laptop-code"></i>SKILLS</h2>
-    <div class="container">
-      <div class="row" id="skillsContainer">
-    
-    <div class="bar">
-      <!-- Technology Stack #1: Languages -->
-      <div class="info">
-        <h1>Languages</h1>
-        <i class="devicon-python-plain colored"></i>
-        <i class="devicon-java-plain-wordmark colored"></i>
-        <i class="devicon-cplusplus-plain colored"></i>
-      </div>
-      </div>
-      <div class="bar">
-      <!-- Technology Stack #2: Front-End -->
-      <div class="info">
-        <h1>Front-End</h1>
-        <i class="devicon-html5-plain-wordmark colored"></i>
-        <i class="devicon-css3-plain-wordmark colored"></i>
-        <i class="devicon-javascript-plain colored"></i>
-        <i class="devicon-bootstrap-plain-wordmark colored"></i>
-      </div>
-      </div>
-      <div class="bar">
-      <!-- Technology Stack #3: Back-End -->
-      <div class="info">
-        <h1>Back-End</h1>
-        <i class="devicon-jquery-plain colored"></i>
-        <i class="devicon-php-plain colored"></i>
-        <i class="devicon-mysql-plain colored"></i>
-      </div>
-      </div>
-      <div class="bar">
-      <!-- Technology Stack #4: Tools -->
-      <div class="info">
-        <h1>Tools</h1>
-        <i class="devicon-git-plain-wordmark colored"></i>
-        <i class="devicon-visualstudio-plain colored"></i>
-        <i class="devicon-github-plain-wordmark colored"></i>
-        <i class="devicon-anaconda-original colored"></i>
-           </div>
-      </div>
-         
-      </div>
-    </div>
-</section>
-<!-- skills section ends -->
-
-<!-- skills section starts -->
-<section class="skills" id="skills">
-
-  <h2 class="heading"><i class="fas fa-laptop-code"></i>BADGES</h2>
-
-  <div class="container">
-        <div class="row" id="skillsContainer">
-             <div class="bar">
-            <div class="info">
-              <a href="https://www.credly.com/badges/f1b9cf47-22ed-4704-ab94-a5313973264c/public_url"><img src="./assets/images/ai.jpg"/></a>
-              <span> Oracle Cloud Infrastructure 2023 AI Certified Foundations Associate</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <a href="https://www.credly.com/badges/e0a2d81f-96a6-4a12-b105-ab7c620fb777/public_url"><img src="./assets/images/linux.png"/></a>
-              <span>LINUX KERNEL</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <a href="https://www.credly.com/badges/39be556f-101a-4f9f-89db-bebb8b0d5828/public_url"><img src="./assets/images/hacker.png"/></a>
-              <span>Ethical Hacker</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <a href="https://www.credly.com/badges/9bca1c02-83a3-4ff1-9a66-c265f3686189/public_url"><img src="./assets/images/Nsupport.png"/></a>
-              <span>Network Support and Security</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <a href="https://www.credly.com/badges/21601b80-422f-43dc-9591-b9f9a6b19c59/public_url"><img src="./assets/images/Naddress.png"/></a>
-              <span>Network Addressing and Basic Troubleshooting</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <a href="https://www.credly.com/badges/c9d6fe18-fb55-4f9b-81f5-524161a47b6d/public_url"><img src="./assets/images/Nbasic.png"/></a>
-              <span>Networking Basics</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <a href="https://www.credly.com/badges/f1b9cf47-22ed-4704-ab94-a5313973264c/public_url"><img src="./assets/images/Introcyber.png"/></a>
-              <span>Introduction to Cybersecurity</span>
-            </div>
-          </div>
-          <div class="bar">
-            <div class="info">
-              <a href="https://www.credly.com/badges/bacdc18f-6c7b-4355-9164-25d48dc4a036/public_url"><img src="./assets/images/cy.png"/></a>
-              <span> Cyberscurity Fundamentals</span>
-            </div>
-          </div>
-    </div>
-</div>
-</section>
-<!-- skills section ends -->
-
-
-<!-- education section starts -->
-<section class="education" id="education">
-
-  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
-
-    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
-
-    <div class="box-container">
-
-    <div class="box">
-        <div class="image">
-        <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
-        </div>
-        <div class="content">
-        <h3>Masters In Computer Application (Cyber-Secuirty)</h3>
-        <p>D.Y Patil International University, Akurdi</p>
-        <h4>2023-2025 | Pursuing</h4>
-        </div>
-    </div>
-
-    <div class="box">
-      <div class="image">
-      <img draggable="false" src="./assets/images/educat/school.jpg" alt="">
-      </div>
-      <div class="content">
-      <h3>Bachelors In Computer Application</h3>
-      <p>Meherbano College Of Arts & Science | SGPU</p>
-      <h4>2020-2023 | Completed</h4>
-      </div>
-    </div>
-
-</div>
-</section>
-<!-- education section ends -->
-
-
-<!-- work project section starts -->
-<section class="work" id="work">
-
-  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects</h2>
-
-  <div class="box-container">
- 
-   
-   
-
-</div>
-     
-     <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/portfolio1.png" alt="" />
-      <div class="content">
-        <div class="tag">
-        <h3>E-food Ordering and Food Donation system</h3>
-        </div>
-        <div class="desc">
-          <p>Combining the convenience of online food ordering with a socially responsible twist, the platform allows users to browse through a diverse range of local restaurants, place orders seamlessly, and have their favorite meals delivered to their doorstep.</p>
-      </div>
-    </div>
-</div>
-       <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/sql.png" alt="" />
-      <div class="content">
-        <div class="tag">
-        <h3>SQL Injection Scanner</h3>
-        </div>
-        <div class="desc">
-          <p>An SQL injection scanner is a cybersecurity tool designed to detect vulnerabilities in websites by injecting malicious SQL payloads into input fields. These payloads are crafted to manipulate the website's database query structure. The scanner analyzes the website's response to these injections, identifying any potential weaknesses that could be exploited by attackers. .</p>
-      </div>
-    </div>
-            <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/helmet.png" alt="" />
-      <div class="content">
-        <div class="tag">
-        <h3>Helmet Detection</h3>
-        </div>
-        <div class="desc">
-          <p>Helmet detection using YOLOv8 involves utilizing the YOLOv8 architecture, a state-of-the-art object detection algorithm, to identify helmets within images or video frames. By training the YOLOv8 model on a dataset containing images of individuals wearing helmets, the model learns to detect the presence and location of helmets accurately. This detection process involves dividing the input image into a grid and predicting bounding boxes and class probabilities for each grid cell.</p>
-      </div>
-    </div>
-   
-
-</div>
-</div>
-
-</section>
-<!-- work project section ends -->
-
-<!-- experience section starts -->
-<section class="experience" id="experience">
-
-  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
-
-  <div class="timeline">
-
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>Freelancer</h2>
-        </div>
-        <div class="desc">
-            <h3>Full Stack(Php) Developer</h3>
-            <p>Oct 2021 - present</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>Technical Tutor</h2>
-        </div>
-        <div class="desc">
-            <h3>Freelancer</h3>
-            <h3>C,C++,Java,Web Development.</h3>
-            <p>June 2022 - presnet</p>
-        </div>
-      </div>
-    </div>
-
-</div>
-
-</section>
-<!-- experience section ends -->
-
-
-
-
-<!-- footer section starts -->
-<section class="footer">
-
-  <div class="box-container">
-
-      <div class="box">
-          <h3>Saurabhmarsh's Portfolio</h3>
-          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> When your WHY is clear, Don't worry about HOW.</p>
-      </div>
-
-      <div class="box">
-          <h3>quick links</h3>
-          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
-          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
-          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
-          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
-          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
-          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
-      </div>
-
-      <div class="box">
-          <h3>contact info</h3>
-          <p> <i class="fas fa-phone"></i>+91 9421453232</p>
-          <p> <i class="fas fa-envelope"></i>saurahmarshettiwar02@gmail.com</p>
-          <p> <i class="fas fa-map-marked-alt"></i>Pune, India-444035></p>
-          <div class="share">
-
-            <a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/saurabh-marshettiwar/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a class="github" aria-label="GitHub" href="https://github.com/saurabhmarsh" target="_blank"><i class="fab fa-github"></i></a>
-            <a class="twitter" aria-label="Twitter" href="https://twitter.com/saurabhmarsh02" target="_blank"><i class="fab fa-twitter"></i></a>
-           <a class="dev" aria-label="Dev" href="https://dev.to/saurabhmarsh" target="_blank"><i class="fab fa-dev"></i></a>
-          </div>
-      </div>
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
   </div>
 
-  <h1 class="credit">Designed with  by saurabh-marshettiwar</h1>
-
-</section>
-<!-- footer section ends -->
 
 
-<!-- scroll top btn -->
-<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
-<!-- scroll back to top -->
 
 
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+  <!-- 
+    - #HEADER
+  -->
 
-<!-- jquery cdn -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <header class="header" data-header>
+    <div class="container">
 
-<!-- typed.js cdn -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="170" height="40" alt="Pfolio home">
+      </a>
 
-<!-- particle.js links -->
-<script src="./assets/js/particles.min.js"></script>
-<script src="./assets/js/app.js"></script>
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
 
-<!-- vanilla tilt.js links -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
 
-<!-- scroll reveal anim -->
-<script src="https://unpkg.com/scrollreveal"></script>
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
 
-<script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
-    ></script>
+          <li>
+            <a href="#" class="navbar-link">Resume</a>
+          </li>
 
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+          <li>
+            <a href="#" class="navbar-link">Knowledge</a>
+          </li>
 
-<script src="./assets/js/script.js"></script>
+          <li>
+            <a href="#" class="navbar-link">Experience</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Certifications</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Projects</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Saurabh Marshettiwar</h1>
+
+            <p class="hero-subtitle">
+              Full-Stack Developer & Cyber-Security Researcher
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/hero-banner.jpg" width="800" height="800" alt="kane williams" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Hi, I am a versatile cybersecurity analyst and web developer with a diploma in cyber law, blending technical expertise and legal acumen.
+               Committed to staying ahead in the cyber landscape, I excel in creating secure web applications and understanding cyber threats; 
+               explore my portfolio to see my work at the intersection of technology, law, and cybersecurity.
+            </p>
+            <ul class="social-list">
+
+              <li>
+                <a href="https://www.linkedin.com/in/saurabh-marshettiwar/" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+      
+              <li>
+                <a href="https://twitter.com/saurabhmarsh02" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+      
+      
+              <li>
+                <a href="https://github.com/saurabhmarsh" class="social-link">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+              </li>
+      
+             
+      
+            </ul>
+            <a href="https://drive.google.com/file/d/1zQxFnWfR4GhEC-Krp_8qEfKqHVYCX2Ga/view?usp=drive_link" class="btn has-before">
+              <span class="span">RESUME</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+            
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Skills that I have learn
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Knowledge</h2>
+            </div>
+
+            <p class="section-text">
+              I am a full stack PHP developer and programmer, with additional expertise in Python,
+               which I leverage for AI and cybersecurity applications. Alongside my technical skills, 
+               I hold diplomas in cyber law and data protection law, providing a comprehensive understanding of the legal aspects of technology.
+                This unique combination of programming proficiency and legal knowledge enables me to develop secure, innovative solutions that are compliant with current regulations.
+            </p>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Web-Development</h3>
+
+                  <p class="card-text">
+                    I am a dedicated PHP developer with a strong foundation in front-end technologies, including HTML, CSS, and JavaScript, and back-end expertise in jQuery, PHP, and MySQL.
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my website design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="shield-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Cyber-Security</h3>
+
+                  <p class="card-text">
+                    I am a cybersecurity researcher currently pursuing an MCA in Cybersecurity. 
+                    My journey in this field includes numerous projects focused on identifying and mitigating cyber threats, developing secure systems.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Technical-Tutor</h3>
+
+                  <p class="card-text">
+                    With personalized guidance and hands-on experience, I help students master complex concepts and excel in their technical endeavors. Let's embark on a journey of learning and growth together.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my eCommerce service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Freelancer</h3>
+
+                  <p class="card-text">
+                    I specialize in creating responsive, user-friendly websites tailored to my clients' needs. From simple landing pages to complex e-commerce platforms, I bring creativity and technical proficiency to every project. Let's collaborate to bring your vision to life on the web.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
+
+                </div>
+              </li>
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" aria-label="our skills">
+        <div class="container">
+
+          <p class="section-subtitle"></p>
+
+          <h2 class="h2 section-title">Experience</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+                From designing responsive layouts to implementing complex functionalities, I've tackled diverse projects,
+                 ranging from personal blogs to enterprise-level applications.
+              </p>
+
+              <p class="section-text">
+                My experience spans various aspects of cybersecurity, including penetration testing, 
+                threat intelligence analysis, and security architecture design. 
+              </p>
+
+              <a href="mailto:saurabhmarshettiwar02@gmail.com" class="btn has-before">saurabhmarshettiwar02@gmail.com</a>
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Front-end developer</p>
+
+                    <data class="progress-value" value="90">90%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Back-end developer</p>
+
+                    <data class="progress-value" value="80">70%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 70%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Full-Stack Developer</p>
+
+                    <data class="progress-value" value="95">75%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 75%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Cyber-Security Researcher</p>
+
+                    <data class="progress-value" value="85">65%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 65%;"></div>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <section class="section skills" aria-label="our skills">
+        <div class="container">
+
+          <p class="section-subtitle">Click on the icons for details</p>
+
+          <h2 class="h2 section-title">Certifications</h2>
+
+          <div class="skills-wrapper">
+
+          <ul class="slider-container" data-slider-container>
+
+            <li >
+         
+                  <a href="https://www.credly.com/badges/f1b9cf47-22ed-4704-ab94-a5313973264c/public_url"><img src="./assets/images/ai.jpg"/></a>
+                  
+             </li>
+             <li >  
+                  <a href="https://www.credly.com/badges/e0a2d81f-96a6-4a12-b105-ab7c620fb777/public_url"><img src="./assets/images/linux.png"/></a>
+                  
+            </li>
+                  <a href="https://www.credly.com/badges/39be556f-101a-4f9f-89db-bebb8b0d5828/public_url"><img src="./assets/images/hacker.png"/></a>
+                
+             <li>
+             
+                  <a href="https://www.credly.com/badges/9bca1c02-83a3-4ff1-9a66-c265f3686189/public_url"><img src="./assets/images/Nsupport.png"/></a>
+                
+                  </li>
+              <li >
+              
+                  <a href="https://www.credly.com/badges/21601b80-422f-43dc-9591-b9f9a6b19c59/public_url"><img src="./assets/images/Naddress.png"/></a>
+                 
+                  </li>
+                  <li >   
+             
+                  <a href="https://www.credly.com/badges/c9d6fe18-fb55-4f9b-81f5-524161a47b6d/public_url"><img src="./assets/images/Nbasic.png"/></a>
+                 
+                  </li>
+                  <li >
+                  <a href="https://www.credly.com/badges/f1b9cf47-22ed-4704-ab94-a5313973264c/public_url"><img src="./assets/images/Introcyber.png"/></a>
+                
+                  </li>
+                  <li >
+                  <a href="https://www.credly.com/badges/bacdc18f-6c7b-4355-9164-25d48dc4a036/public_url"><img src="./assets/images/cy.png"/></a>
+                  
+        </li></ul></div></div></section>
+      
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">On Web-Development , AI , Cyber-Security</p>
+
+            <h2 class="h2 section-title">Projects</h2>
+          </div>
+
+
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-1.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Sql Inejction Scanner</h3>
+
+                  <p class="card-text">Vulnerability Scanner Web Application</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-2.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Hunger-Bite</h3>
+
+                  <p class="card-text">E-Food Ordering & Food Donation System</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-3.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Number Plate Detection</h3>
+
+                  <p class="card-text">Using opencv and harcascading dataset</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-4.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Helmet Detection</h3>
+
+                  <p class="card-text">Detecting Helmet using Yolov9</p>
+                </div>
+
+                <a href="#" class="layer-link"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+      
+      
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:saurabhmarshettiwar02@gmail.com" class="footer-link">saurabhmarshettiwar02@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Locations</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Pune(443005)- Maharashtra</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.linkedin.com/in/saurabh-marshettiwar/" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/saurabhmarsh02" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://github.com/saurabhmarsh" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+       
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>
